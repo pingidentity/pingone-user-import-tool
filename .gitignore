@@ -1,0 +1,13 @@
+.classpath
+.project
+.settings/
+**/target/**
+.metadata/
+.recommenders/
+*.orig
+*.csv
+**/*.log
+/target/
+/.idea/
+*.iml
+*.DS_Store

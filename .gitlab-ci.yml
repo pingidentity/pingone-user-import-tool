@@ -1,0 +1,19 @@
+stages:
+  - compile-code
+  - publish-artifacts
+
+build-tool:
+  stage: compile-code
+  script:
+    - mvn clean install
+  tags:
+    - platform-compile-java-client
+
+publish-tool:
+  stage: publish-artifacts
+  script:
+    - mvn deploy
+  only:
+    - master
+  tags:
+    - platform-publish-java-client
