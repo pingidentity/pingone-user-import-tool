@@ -31,14 +31,14 @@ Your csv should contain a list of users. At a minimum, each record should have e
 
 ### Task 0 - Create a free P14C Trial Account (if you don't already have one).
 
-1. Navigate to https://developer.pingidentity.com/en/signup.html and sign up.
+1. Navigate to https://www.pingidentity.com/en/try-ping.html and sign up.
 2. Verify your email address.
-3. Log in from https://console.pingone.com.
+3. Log in from https://console.pingone.com/?env={{env_id}}.
 
 ### Task 1 - Create a Worker App that will be used to provision to P14C
 
 1. Click the Connections tab
-2. Click +Application
+2. Click + Application
 3. Choose Worker, and click Configure.
 4. Define a name and description, click Save and Close
 5. You'll see your app listed. The Client ID is listed right under the name - record this.
@@ -48,9 +48,10 @@ Your csv should contain a list of users. At a minimum, each record should have e
 
 ### Task 2 - Collect information about your P14C environment.
 
-1. Click the Settings Tab, record the Environment ID.
-2. Click the Identities Tab, and then choose populations on the left. 
-3. Beside the population, click the expand button and record the Population ID.
+1. Click **Environments** and then **Properties** on the left side bar.
+2. Record the Environment ID.
+3. Click **Identities** and then **Populations** on the left side bar. 
+4. Beside the population you want to create the new users for, click the expand button and record the Population ID.
 
 ### Task 3 - Install and run the tool.
 
